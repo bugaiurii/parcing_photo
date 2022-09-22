@@ -7,3 +7,5 @@ quantity = int(input())
 
 print('По какому запросу парсить фото?')
 name = input()
+
+google_crawler.crawl(keyword=name, max_num=quantity)
